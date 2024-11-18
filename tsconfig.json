@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and */
+    "module": "commonjs",                                 /* Specify what module code is generated. */
+    "outDir": "./dist",                            
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
