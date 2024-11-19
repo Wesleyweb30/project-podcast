@@ -44,7 +44,7 @@ Este projeto é ideal para plataformas ou aplicativos que desejam integrar conte
    ]
    ```
 
-### 2. **GET `/podcast/p=platao`**
+### 2. **GET `/podcast/p=plantao`**
    - **Descrição**: Filtra episódios de podcast com base no nome do podcast.
    - **Parâmetros de consulta**:
      - `p` (opcional): Nome do podcast para filtrar.
