@@ -1,22 +1,24 @@
 import {IncomingMessage, ServerResponse} from "http";
 import { getAll, serviceFilterEpisode } from "../services/podcast-service"
-import { StatusCode } from "../utils/status-code";
+import { PodcastDTO } from "../model/podcastDTO";
 
 export const getAllPodcast = async (req: IncomingMessage, res: ServerResponse) => {
    
-   const content = await getAll();
+   const content: PodcastDTO = await getAll();
 
-   res.writeHead(StatusCode.OK, { "content-type": "application/json" });
-   res.end(JSON.stringify(content));
+   res.writeHead(content.statusCode, { "content-type": "application/json" });
+   res.write(JSON.stringify(content.body));
+   res.end();
 
 };
 
 
 export const getFilterByEpisode = async (req: IncomingMessage, res: ServerResponse) => {
 
-   const content = await serviceFilterEpisode(req.url);
+   const content: PodcastDTO = await serviceFilterEpisode(req.url);
 
-   res.writeHead(StatusCode.OK, { "content-type": "application/json" });
-   res.end(JSON.stringify(content));
+   res.writeHead(content.statusCode, { "content-type": "application/json" });
+   res.write(JSON.stringify(content.body));
+   res.end();
 
 };
