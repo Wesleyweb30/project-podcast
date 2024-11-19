@@ -25,7 +25,7 @@ Podcast feitos em vídeo
    [
       {
       podcastName: "Plantão Nerd",
-      videoId:"C0OIR5YxKj4"
+      videoId:"C0OIR5YxKj4",
       episode: "A SEMANA [03/10 a 10/11] DE LANÇAMENTOS 2024 = STREAMINGS + CINEMA - Plantão Nerd #009",
       cover: "https://i.ytimg.com/vi/C0OIR5YxKj4/maxresdefault.jpg",
       link: "https://www.youtube.com/watch?v=C0OIR5YxKj4",
@@ -33,7 +33,7 @@ Podcast feitos em vídeo
       },
       {
       podcastName: "Plantão Nerd",
-      videoId:"yeXSkgLGjLI"
+      videoId:"yeXSkgLGjLI",
       episode: "GARCIA JR. + THIAGO DE SOUZA + CARLOS ALBERTO - Histórias Tenebrosas #008",
       cover: "https://i.ytimg.com/vi/yeXSkgLGjLI/maxresdefault.jpg",
       link: "https://www.youtube.com/watch?v=yeXSkgLGjLI",
